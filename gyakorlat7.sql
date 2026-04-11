@@ -1,6 +1,3 @@
-CREATE DATABASE IF NOT EXISTS `gyakorlat7` CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
-USE `gyakorlat7`;
-
 CREATE TABLE IF NOT EXISTS `felhasznalok` (
   `id` int(10) unsigned NOT NULL auto_increment,
   `csaladi_nev` varchar(45) NOT NULL default '',
